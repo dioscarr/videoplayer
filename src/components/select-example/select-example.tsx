@@ -26,7 +26,7 @@ export const SelectExample = ({ className }: SelectExampleProps) => {
                 onItemSelect={setFilm}
                 className={styles.select}
             >
-                <Button text={film.title} rightIcon="caret-down" />
+                <Button text={film.title} rightIcon="caret-down" about={''} />
             </Select2>
         </Example>
     );

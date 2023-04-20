@@ -7,6 +7,14 @@ export default createBoard({
     environmentProps: {
         canvasMargin: {
             top: 24,
+            left: 0,
         },
+        windowWidth: 390,
+        canvasWidth: 348,
+        canvasPadding: {
+            left: 0,
+        },
+        canvasBackgroundColor: '#ff0000',
+        windowHeight: 844,
     },
 });
